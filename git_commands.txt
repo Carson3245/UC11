@@ -1,0 +1,19 @@
+# Comandos de versionamento (exemplo)
+
+git init
+git branch -M main
+git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
+
+git add -A
+git commit -m "feat: definir cadastroVIEW como tela principal"
+
+git add -A
+git commit -m "feat: salvar produto no banco e mensagens de sucesso/erro"
+
+git add -A
+git commit -m "feat: listagem de produtos com JTable"
+
+git add -A
+git commit -m "chore: adicionar banco SQLite e README"
+
+git push -u origin main
